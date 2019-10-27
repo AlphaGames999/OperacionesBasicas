@@ -1,0 +1,74 @@
+*::selection {
+  text-shadow: 3px 3px 3px #E2E2E2;
+  box-shadow: 3px 3px 3px #E2E2E2;
+}
+
+body {
+  font-family: "arial", sans-serif;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  color: #E2E2E2;
+  text-shadow: 34px 34px 34px #E2E2E2;
+}
+
+.title {
+  font-size: 50px;
+  text-shadow: 3px 3px 3px #E2E2E2;
+}
+
+.subtitle {
+  font-size: 25px;
+  text-shadow: 2px 2px 2px #E2E2E2;
+}
+
+.btn {
+  padding: 1em;
+  border: solid rgba(200, 0, 0, 0) 1px;
+  border-radius: 2px;
+  margin-left: 1em;
+}
+
+.btn-primary {
+  background: linear-gradient(180deg, #00B400, #009A00);
+  color: #fff;
+  box-shadow: 3px 3px 3px #E2E2E2;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: "calibri", Arial, sans-serif;
+  font-size: 20px;
+}
+.btn-primary:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=30);
+}
+.btn-primary:hover:active {
+  background: linear-gradient(0deg, #00B400, #009A00);
+  border: solid #56E9FF 1px;
+  opacity: 1;
+  filter: alpha(opacity=50);
+}
+
+.input {
+  padding: 1em;
+  font-family: "calibri", Arial, sans-serif;
+  font-size: 18px;
+  background: rgba(200, 0, 0, 0);
+  border: solid rgba(200, 0, 0, 0) 1px;
+  border-bottom: #00B400 solid 1px;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+.input:active {
+  border-bottom: #0066FF solid 2px;
+}
+
+.input-active {
+  border-bottom: #0066FF solid 2px;
+}
+
+/*# sourceMappingURL=main.css.map */

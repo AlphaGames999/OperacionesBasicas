@@ -1,0 +1,23 @@
+.btn
+	padding: 1em
+	border: solid $transparent-color 1px
+	border-radius: 2px
+	margin-left: $btn-margin-left
+
+.btn-primary
+	background: $btn-primary-color
+	color: $btn-text-color
+	box-shadow: $btn-box-shadow
+	padding-left: $btn-padding-left-and-right
+	padding-right: $btn-padding-left-and-right
+	font-family: $btn-font-family
+	font-size: $btn-font-size
+	&:hover
+		cursor: $btn-hover-cursor
+		opacity: $btn-hover-opacity
+		filter: $btn-hover-filter
+		&:active
+			background: $btn-active-background
+			border: $btn-active-border
+			opacity: $btn-active-opacity
+			filter: $btn-active-filter
